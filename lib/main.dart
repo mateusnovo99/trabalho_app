@@ -93,7 +93,7 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 60),
 
             const Text(
-              "Senhor Barriga",
+              "Rei do morro",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
