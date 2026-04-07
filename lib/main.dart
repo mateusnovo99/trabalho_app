@@ -97,7 +97,7 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 60),
 
             const Text(
-              "Mateus Balbino Cavalcante",
+              "Luquinhas",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
