@@ -68,7 +68,7 @@ class ProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Perfil")),
-      body: SingleChildScrollView( 
+      body: SingleChildScrollView(
         child: Column(
           children: [
             Stack(
@@ -88,7 +88,7 @@ class ProfilePage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: 40,
                       backgroundImage:
-                          AssetImage('assets/foto.png'), 
+                          AssetImage('assets/foto.png'),
                     ),
                   ),
                 ),
@@ -143,7 +143,7 @@ class ProfilePage extends StatelessWidget {
 }
 
 //
-// ------------------ ABA 2 (LÓGICA) ------------------
+// ------------------ ABA 2 (ESTUDOS - CORRETA PRA PROVA) ------------------
 //
 
 class StudyPage extends StatefulWidget {
@@ -198,6 +198,7 @@ class _StudyPageState extends State<StudyPage> {
         padding: const EdgeInsets.all(10),
         child: Column(
           children: [
+            // TOTAL
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(20),
@@ -213,6 +214,7 @@ class _StudyPageState extends State<StudyPage> {
               ),
             ),
 
+            // INPUTS
             TextField(
               controller: techController,
               decoration:
