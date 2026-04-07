@@ -57,10 +57,6 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-//
-// ------------------ ABA 1 (PERFIL) ------------------
-//
-
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
@@ -97,7 +93,7 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 60),
 
             const Text(
-              "Victor Hugo",
+              "Senhor Barriga",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
@@ -142,9 +138,6 @@ class ProfilePage extends StatelessWidget {
   }
 }
 
-//
-// ------------------ ABA 2 (ESTUDOS - CORRETA PRA PROVA) ------------------
-//
 
 class StudyPage extends StatefulWidget {
   const StudyPage({super.key});
@@ -274,9 +267,6 @@ class _StudyPageState extends State<StudyPage> {
   }
 }
 
-//
-// ------------------ DETALHE ------------------
-//
 
 class DetailPage extends StatelessWidget {
   final String tech;
